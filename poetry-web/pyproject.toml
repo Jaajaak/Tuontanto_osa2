@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-web"
+version = "0.1.0"
+description = ""
+authors = ["Jaakko <vikstromjaakko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.4"
+flask = "^3.0.3"
+cowsay = "^6.1"
+toml = "^0.10.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
